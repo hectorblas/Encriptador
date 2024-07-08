@@ -1,0 +1,66 @@
+    #main-container{
+        flex-flow: column nowrap;
+        justify-content: space-evenly;
+        height: auto;
+    }
+
+    #box-logo{
+        margin-top: 30px;
+    }
+
+    .box-interaction-format{
+        width: 85vw;
+    }
+
+   #box-interaction{
+        width: 85vw;
+    }
+
+    .box-input-format{
+        width: 100%;
+    }
+
+    #box-input textarea{
+        margin-top: 10px;
+        height: 50vh;
+        width: 100%;
+    }
+
+    #encriptar{
+        width: 90%;
+        margin: 0% 5%;
+        padding: 5%;
+    }
+
+    #desencriptar{
+        width: 90%;
+        margin: 0% 5%;
+        padding: 5%;
+    }
+
+    #box-results{
+        width: 688px;
+        height: 133px;
+    }
+
+    #image{
+        display: none;
+    }
+
+    #box-results{
+        width: 85vw;
+        height: auto;
+    }
+
+    #text-default1 p{
+        margin: 5px;
+    }
+
+    #button-copy{
+        height: 80px;
+        margin-left: 5%;
+    }
+
+    footer{
+        margin-top: 10px;
+    }

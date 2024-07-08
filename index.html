@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/tablet.css" media="(max-width: 1000px)">
+    <link rel="stylesheet" href="css/celular.css" media="(max-width: 470px) and (max-height: 1050px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0a525ee5a7.js" crossorigin="anonymous"></script>
+    <title>Encriptador de texto</title>
+</head>
+
+<body>
+    <div id="main-container">
+        <div id="box-logo" class="main-boxes">
+            <img src="assets/icons/Logo.png" alt="logo-alura">
+        </div>
+        
+        <div id="box-interaction" class="main-boxes">
+            <div id="box-input" class="box-interaction-format">
+                <textarea type="text" class="box-input-format" placeholder="ingrese el texto aquí..."></textarea>
+            </div>
+            <div id="box-input2" class="box-interaction-format">
+                <div id="note" class="box-input-format">
+                    <img src="assets/icons/Exclamacion.png" alt="advertencia"><p>Solo letras minúsculas y sin tíldes</p>
+                </div>
+                <div id="box-buttons" class="box-input-format">
+                    <div id="button1" class="box-button-format">
+                        <button id="encriptar"><span>Encriptar!</span></button>
+                    </div>
+                    <div id="button2" class="box-button-format">
+                        <button id="desencriptar"><span>Desencriptar!</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="box-results" class="main-boxes">
+            <div id="result">
+            </div>
+            <div id="image">
+                <img src="assets/img/Muñeco.png" alt="muñeco-buscador-de-textos">
+            </div>
+            <div id="text-default1">
+                <p>Ningún mensaje fue encontrado</p>
+            </div>
+            <div id="text-default2">
+                <p>Ingrese el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div id="button-copy">
+                <button id="copiar"><span>Copiar</span></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

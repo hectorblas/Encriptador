@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    /* Colores*/
+    --color-fondo: #F3F5FC;
+    --color-secundario: #0A3871;
+    --color-terciario: #495057;
+
+    --fuente-inter: "Inter", sans-serif;
+}
+
+html{
+    margin: 4vh 5vw 0vh 5vw;
+    padding: 0;
+    font-family: var(--fuente-inter);
+    font-style: normal;
+    color: var(--color-secundario);
+    line-height: 150%;
+}
+
+body{
+    background: var(--color-fondo);
+}
+
+#main-container{
+    height: 88vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.main-boxes{
+    margin: 10px;
+}
+
+#box-logo{
+    display: block;
+}
+
+#box-interaction{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.box-interaction-format{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-input-format{
+    width: 75%;
+}
+
+#box-input{
+    height: 81%;
+}
+#box-input2{
+    height: 19%;
+    margin-bottom: 15px;
+}
+
+    #box-input textarea{
+        margin: 10px;
+        padding: 12px;
+        margin-top: 100px;
+        height: 100%;
+        border: none;
+        outline: none !important;
+        resize: none;
+        background: var(--color-fondo);
+        color: var(--color-secundario);
+        font-family: var(--fuente-inter);
+        font-style: normal;
+        font-size: 32px;
+    }
+
+    ::placeholder{
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 150%;
+        color: var(--color-secundario);
+    }
+
+    #note{
+        display: flex;
+        font-size: 12px;
+        opacity: 0.8;
+        color: var(--color-terciario);
+    }
+
+    #note img{
+        width: 12px;
+        height: 12px;
+        align-self: center;
+    }
+
+    #note p{
+        margin-left: 10px;
+    }
+
+    #box-buttons{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        height: 45%;
+    }
+
+    .box-button-format{
+        width: 50%;
+        height: 100%;
+        padding: 0px;
+    }
+
+        #encriptar{
+            width: 80%;
+            height: 100%;
+            border-radius: 24px;
+            background: var(--color-secundario);
+        }
+
+        #encriptar:hover{
+            background: rgba(4, 30, 63, 0.900);
+            cursor: pointer;
+        }
+
+        #encriptar span{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            color: #FFFFFF;
+            margin: auto;
+        }
+
+        #desencriptar{ 
+            width: 80%;
+            height: 100%;
+            border-radius: 24px;
+            background: #D8DFE8;
+            box-sizing: border-box;
+            border-radius: 24px;
+        }
+
+        #desencriptar:hover{
+            background: rgba(186, 193, 201, 0.900);
+            cursor: pointer;
+        }
+
+        #desencriptar span{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;           
+            color: var(--color-secundario);
+            margin: auto;
+        }
+
+#box-results{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    width: 43%;
+}
+
+    #result{
+        width: 80%;
+        height: 95%;
+        font-size: 24px;
+        padding: 25px;
+        color: var(--color-terciario);
+        display: none;
+    }
+
+    #image{
+        width: 336px;
+        height: 304px;
+        margin-top: 100px;
+        align-self: center;
+        display: block;
+    }
+
+    #text-default1{ 
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 24px;
+        text-align: center;
+        color: #343A40;
+        align-self: center;
+        display: block;
+    }
+
+    #text-default1 p{
+        margin: 20px 0px 0px 0px;
+    }
+
+
+    #text-default2{
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: var(--color-terciario);
+        align-self: center;
+        display: block;
+    }
+
+    #button-copy{
+        width: 80%;
+        height: 15%;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        display: none;
+    }
+
+    #copiar{
+        width: 93%;
+        height: 69%;
+        margin-top: 10px;
+        background: white;
+        box-sizing: border-box;
+        border-radius: 24px;
+    }
+
+    #copiar:hover{
+        background: rgb(250, 250, 250);
+        cursor: pointer;
+    }
+
+    #copiar span{
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;           
+        color: var(--color-secundario);
+        margin: auto;
+    }

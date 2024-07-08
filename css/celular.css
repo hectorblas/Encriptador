@@ -1,0 +1,27 @@
+    html{
+        margin: 2vh 2vw 0vh 2vw;
+    }
+
+    .main-boxes{
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+    #box-input textarea{
+        margin-top: 10px;
+        height: 40vh;
+        width: 100%;
+    }
+    #box-buttons{
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+    #encriptar{
+        width: 190%;
+        margin: 0% 10% 5% 5%;
+        padding: 10%;
+    }
+    #desencriptar{
+        width: 190%;
+        margin: 5% 10% 5% 5%;
+        padding: 10%;
+    }
